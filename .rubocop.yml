@@ -1,0 +1,45 @@
+Metrics/BlockLength:
+  Exclude:
+    - 'spec/**/*_spec.rb'
+
+Metrics/LineLength:
+  Max: 120
+
+Metrics/ModuleLength:
+  Max: 100
+
+Metrics/ParameterLists:
+  Max: 3
+  CountKeywordArgs: false
+
+Style/IndentHash:
+  EnforcedStyle: consistent
+
+Style/IndentArray:
+  EnforcedStyle: consistent
+
+Style/FrozenStringLiteralComment:
+  Enabled: false
+
+Style/EmptyLines:
+  Enabled: false
+
+Style/EmptyLinesAroundClassBody:
+  Enabled: false
+
+Style/MultilineOperationIndentation:
+  EnforcedStyle: indented
+
+Style/Documentation:
+  Enabled: false
+
+Style/ModuleFunction:
+  EnforcedStyle: extend_self
+
+Style/EmptyMethod:
+  Enabled: false
+
+Bundler/OrderedGems:
+  Enabled: false
+
+
