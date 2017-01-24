@@ -19,7 +19,7 @@ module Emarsys
 
       def build_params(mail)
         {
-          to: mail.to.join(','),
+          recipients: mail.to.map { |to| { email: to } },
           from: mail.from.first,
           subject: mail.subject,
           text_body: mail.text_part.decoded,
